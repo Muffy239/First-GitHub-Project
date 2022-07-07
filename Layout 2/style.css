@@ -4,22 +4,9 @@
 
 .container {
   border: 4px solid lightgray;
-  padding: 24px;
   padding: 24px 24px 0 24px;
   display: flex;
   justify-content: center;
-}
-
-.row {
-  width: 100%;
-  max-width: 600px;
-}
-
-.title {
-  border: 2px solid lightgray;
-  width: 100%;
-  height: 24px;
-  margin-bottom: 24px;
 }
 
 .box {
@@ -34,4 +21,16 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
+}
+
+.title {
+  border: 2px solid lightgray;
+  width: 100%;
+  height: 24px;
+  margin-bottom: 24px;
+}
+
+.row {
+  width: 100%;
+  max-width: 600px;
 }
