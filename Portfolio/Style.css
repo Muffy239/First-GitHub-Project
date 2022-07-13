@@ -37,6 +37,10 @@ li {
   flex: 1;
 }
 
+.container {
+  padding: 50px 0;
+}
+
 .row {
   width: 100%;
   max-width: 800px;
@@ -45,6 +49,14 @@ li {
 
 .text--purple {
   color: #34568B;
+}
+
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.section__title {
+  margin-bottom: 20px;
 }
 
 /* NAVIGATION BAR*/
@@ -80,7 +92,7 @@ nav {
   background-color: #5d3eff;
 }
 
-.personal_logo {
+.personal__logo {
   font-size: 24px;
   color: #34568B;
   margin: 0 12px;
@@ -97,6 +109,11 @@ nav {
 
 #about-me {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me__info {
   display: flex;
   flex-direction: column;
 }
@@ -135,3 +152,30 @@ nav {
   margin-bottom: 28px;
 }
 
+.about-me__link {
+  font-size: 20px;
+  color: #242424;
+  text-decoration: none;
+  padding: 0 16px;
+}
+
+.about-me__img--container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.about-me__img {
+  width: 100%;
+}
+
+/* STACK  */
+
+.language__img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.language__img--wrapper {
+  width: 25%;
+}
