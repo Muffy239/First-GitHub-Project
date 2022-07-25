@@ -58,7 +58,7 @@ input {
 }
 
 .purple {
-  color: #4501b3;
+  color: #6415ff;
 }
 
 
@@ -99,15 +99,16 @@ nav {
 }
 
 .nav__link--anchor-primary {
-  background-color: #6030b1;
+  background-color: #6415ff;
   padding: 12px 32px;
   border-radius: 50px;
   color: white;
-  transition: all 300ms ease;
+  transition: all 200ms ease;
 }
 
 .nav__link--anchor-primary:hover {
-  background-color: #4501b3;
+  background-color: #5011cc;
+  cursor: pointer;
 }
 
 
@@ -166,16 +167,20 @@ Content 1
   position: absolute;
   margin: 0.5rem 0;
   width: 10rem;
-  line-height: 1;
   margin: 8px 0;
-  background-color: #6030b1;
-  padding: 12px 32px;
+  background-color: #6415ff;
+  padding: 16px 0px;
   border-radius: 50px;
   color: white;
-  transition: all 300ms ease;
+  transition: all 200ms ease;
   border: none;
+  font-weight: 700;
 }
 
+.content__botton:hover {
+  background-color: #5011cc;
+  cursor: pointer;
+}
 
 
 .content__left-bottom {
@@ -218,7 +223,8 @@ Features top
 .section__title {
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #6030b1;
+  color: #6415ff;
+  font-weight: 700;
 }
 
 .feature__title {
@@ -260,7 +266,7 @@ Features Bottom
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin: 8px 0 0 60px;
+  margin: 8px 0 0 40px;
   max-width: 211.328px;
 }
 
@@ -274,8 +280,7 @@ Features Bottom
 }
 
 .feature {
-  padding: 32px 8px;
-  margin: 0 16px;
+  padding: 16px 0px;
   width: calc(100% / 3);
   display: flex;
   justify-content: center;
@@ -285,12 +290,33 @@ Features Bottom
 
 
 .feature__border-circle {
-  width: 66px;
-  height: 66px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #dde1e700;
+  background: #dde1e7e1;
   box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px  rgba(94, 104, 121, 0.671);
+}
+
+/* 
+
+QUALITY CONTENT 
+
+*/
+
+.quality__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.quality__left {
+  width: 50%;
+}
+
+.quality__right {
+  width: 50%;
 }
