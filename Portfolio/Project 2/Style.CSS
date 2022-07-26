@@ -154,6 +154,7 @@ Content 1
 
 .content__para {
   margin: 32px 0;
+  font-size: 1.125rem;
 }
 
 
@@ -317,6 +318,43 @@ QUALITY CONTENT
   width: 50%;
 }
 
+.quality__head {
+  font-size: 3rem;
+}
+
 .quality__right {
+  width: 50%;
+}
+
+.quality__img{
+  max-width: 100%;
+  border: 1px solid black ;
+}
+
+
+/* 
+
+(new section)
+STEPS
+
+
+*/
+
+.step__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step__left {
+  width: 50%;
+}
+
+.step__img {
+  max-width: 100%;
+}
+
+
+.step__right {
   width: 50%;
 }
