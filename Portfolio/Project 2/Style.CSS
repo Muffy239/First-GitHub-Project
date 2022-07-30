@@ -122,6 +122,7 @@ Content 1
   max-width: 100%;
   height: auto;
 }
+
 .content__left {
   width: 40%;
 }
@@ -210,10 +211,6 @@ Features top
   font-weight: 700;
 }
 
-.feature__title {
-  font-size: 4rem;
-}
-
 .feature__para-top {
   color: rgba(124, 139, 161, var(--tw-text-opacity));
   --tw-text-opacity: 1;
@@ -236,6 +233,10 @@ Features Bottom
 .feature__img {
   height: 24px;
   width: 24px;
+}
+
+.feature__subtitle {
+  color: #243E63;
 }
 
 .feature__information {
@@ -289,10 +290,6 @@ QUALITY CONTENT
   width: 50%;
 }
 
-.quality__head {
-  font-size: 3rem;
-}
-
 .quality__right {
   width: 50%;
 }
@@ -334,31 +331,32 @@ STEPS
 .step__head {
   margin-top: 16px;
   font-weight: 900;
-  font-size: 56px;
+  font-size: 48px;
+  color: #243e63;
 }
 
 .step__list {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 32px;
 }
 
 .step__num {
-    font-size: 36px;
-    color: rgba(124, 139, 161, var(--tw-text-opacity));
-    --tw-text-opacity: 1;
+  font-size: 36px;
+  color: rgba(124, 139, 161, var(--tw-text-opacity));
+  --tw-text-opacity: 1;
 }
+
 .step__list--para {
-    margin-left: 24px;
-    max-width: 320px;
+  margin-left: 24px;
+  max-width: 320px;
 }
 
 .step__list--header {
-    font-size: 20px;
-    font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
 }
-
 
 /* 
 
@@ -368,9 +366,9 @@ VALUE
 */
 
 .value__wrapper {
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .value__left {
@@ -380,7 +378,6 @@ justify-content: center;
 .value__right {
   width: 50%;
 }
-
 
 .value__icon--wrapper {
   display: flex;
@@ -405,15 +402,6 @@ justify-content: center;
   font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
 .value__img--dollar {
   width: 36px;
   height: 36px;
@@ -424,4 +412,18 @@ justify-content: center;
   justify-content: center;
   background: #efe9f7f4;
   box-shadow: -3px -3px 7px #ffffffed, 3px 3px 5px rgba(94, 104, 121, 0.671);
+}
+
+/* 
+
+(new section)
+PRICING
+
+*/
+
+.pricing__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
